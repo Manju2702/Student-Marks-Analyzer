@@ -1,0 +1,56 @@
+How many students? 3
+
+Enter name of student 1: Vani
+How many subjects for Vani? 3
+  Enter subject 1: Maths
+  Enter marks in Maths: 98
+  Enter subject 2: Science
+  Enter marks in Science: 92
+  Enter subject 3: Hindi
+  Enter marks in Hindi: 94
+
+Enter name of student 2: Rani
+How many subjects for Rani? 3
+  Enter subject 1: Maths
+  Enter marks in Maths: 90
+  Enter subject 2: Science
+  Enter marks in Science: 94
+  Enter subject 3: Hindi
+  Enter marks in Hindi: 89
+
+Enter name of student 3: Rahul
+How many subjects for Rahul? 3
+  Enter subject 1: Maths
+  Enter marks in Maths: 93
+  Enter subject 2: Science
+  Enter marks in Science: 97
+  Enter subject 3: Hindi
+  Enter marks in Hindi: 92
+
+Students Data:
+{'Vani': {'Maths': 98.0, 'Science': 92.0, 'Hindi': 94.0}, 'Rani': {'Maths': 90.0, 'Science': 94.0, 'Hindi': 89.0}, 'Rahul': {'Maths': 93.0, 'Science': 97.0, 'Hindi': 92.0}}
+
+--- Student Marks Report ---
+
+Student: Vani
+Subjects & Marks: {'Maths': 98.0, 'Science': 92.0, 'Hindi': 94.0}
+Total Marks: 284.0
+Average Marks: 94.67
+Highest: 98.0 in Maths
+Lowest : 92.0 in Science
+
+Student: Rani
+Subjects & Marks: {'Maths': 90.0, 'Science': 94.0, 'Hindi': 89.0}
+Total Marks: 273.0
+Average Marks: 91.00
+Highest: 94.0 in Science
+Lowest : 89.0 in Hindi
+
+Student: Rahul
+Subjects & Marks: {'Maths': 93.0, 'Science': 97.0, 'Hindi': 92.0}
+Total Marks: 282.0
+Average Marks: 94.00
+Highest: 97.0 in Science
+Lowest : 92.0 in Hindi
+
+Enter student name to plot marks (or press Enter to skip): Rahul
