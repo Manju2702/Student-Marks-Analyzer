@@ -1,33 +1,64 @@
-Student Marks Analyzer
+# 📊 Student Marks Analyzer (with Graphs)
 
-A simple Python program to store student marks, calculate total and average, find highest and lowest scores, and display a bar graph of marks.
+A Python mini-project that allows you to:
 
-Features
+- Add **multiple students**
+- Add **multiple subjects** per student
+- Safely take input (with validation)
+- Calculate:
+  - Total marks
+  - Average marks
+  - Highest & lowest scoring subjects
+- Plot a **bar graph of marks** for any selected student using `matplotlib`
 
-Add multiple students
+Perfect for **BCA mini-projects**, **Python beginners**, and **GitHub portfolio**.
 
-Add multiple subjects
+---
 
-Calculates total & average
+## 🚀 Features
 
-Finds highest & lowest marks
+- ✅ Supports **multiple students**
+- ✅ Each student can have **different subjects**
+- ✅ Input validation using:
+  - `safe_int()` → for safe integer input  
+  - `safe_float()` → for safe numeric marks
+- ✅ Calculates:
+  - Total marks
+  - Average marks
+  - Highest-scoring subject
+  - Lowest-scoring subject
+- ✅ Uses **Python dictionary** to store data
+- ✅ Plots a **bar chart** of a selected student's marks using `matplotlib`
 
-Plots marks using matplotlib
+---
 
-How to Run
+## 🧠 How It Works
 
-Install:
+1. First, the program asks:  
+   `How many students?`
+2. For each student:
+   - It asks for **student name**
+   - Then asks: `How many subjects for <name>?`
+   - Then for each subject:
+     - Subject name
+     - Marks in that subject
+3. After all input:
+   - It prints a **detailed marks report** for each student
+4. Finally, you can choose a **student name** to **plot** their marks as a bar graph.
 
+---
+
+## 🧰 Technologies Used
+
+- **Python 3**
+- **matplotlib** for plotting graphs
+
+---
+
+## 📦 Requirements
+
+Install `matplotlib` (only once):
+
+```bash
 pip install matplotlib
 
-
-Run:
-
-python student_marks_analyzer.py
-
-
-Enter student name, subjects, and marks when asked.
-
-Type a student name at the end to view their marks graph.
-
-If you want this in one-line per section or want a README with no icons, tell me!
